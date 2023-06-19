@@ -21,7 +21,7 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Test Poll Github') {
+        stage('Complete') {
             steps {
                 echo 'Test Poll Github'
             }
